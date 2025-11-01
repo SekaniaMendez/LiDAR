@@ -1,0 +1,65 @@
+# ===============================
+# 🧠 ROS 2 / Colcon build system
+# ===============================
+build/
+install/
+log/
+
+# Colcon metadata
+.colcon/
+colcon.meta
+.colcon_install_layout
+
+# ===============================
+# 🐋 Container / Docker
+# ===============================
+*.tar
+*.img
+*.iso
+*.log
+*.pid
+*.sock
+.env
+.env.*
+*.containerignore
+
+# Avoid cache or temporary files from runtime
+**/__pycache__/
+*.py[cod]
+*.so
+*.swp
+
+# ===============================
+# 🧱 VS Code / Development
+# ===============================
+.vscode/
+.history/
+*.code-workspace
+
+# ===============================
+# 🍎 macOS system files
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ===============================
+# 🧩 Git / Submodules
+# ===============================
+.gitmodules
+*.orig
+*.rej
+
+# ===============================
+# 🚧 Local data or experiments
+# ===============================
+tmp/
+*.bak
+*.tmp
+notes.txt

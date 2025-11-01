@@ -1,0 +1,11 @@
+# Ignora VCS y archivos temporales
+.git
+.gitignore
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.DS_Store
+# Ignora build de colcon
+build/
+install/
+log/
